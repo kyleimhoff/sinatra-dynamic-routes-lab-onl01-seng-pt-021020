@@ -13,6 +13,10 @@ end
 get 'say/:number/:phrase' do 
   @number = params[:number]
   @phrase = params[:phrase]
-  @number.times do
+  @number.times {"#{phrase}"}
 end 
+get '/say/:word1/:word2/:word3/:word4/:word5' do 
+  "#{params[:word1]} "
+end 
+
 end
