@@ -7,5 +7,10 @@ get '/reversename/:name' do
   "#{@reversename}"
 end
 get '/square/:number' do 
-  @sqare = params[:number]
+  @sqare = params[:number]** 2 
+  "#{@square}"
+end
+get 'say/:number/:phrase' do 
+  
+end 
 end
