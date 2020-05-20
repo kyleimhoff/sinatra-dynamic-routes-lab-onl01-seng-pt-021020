@@ -21,7 +21,7 @@ end
 get '/:operation/:number1/:number2' do 
   num1 = params[:number1].to_i
   num2 = params[:number2].to_i 
-  answer = "Unable to perform that operation"
+  answer = "Unable to perform this operation"
   
   case params[:operation]
     when 'add'
