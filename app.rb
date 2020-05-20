@@ -7,7 +7,7 @@ get '/reversename/:name' do
   end
 get '/square/:number' do 
   sqare = params[:number].to_i ** 2 
-  
+  square.to_s
 end
 get '/say/:number/:phrase' do
     answer = ''
